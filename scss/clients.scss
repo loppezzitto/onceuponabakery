@@ -1,0 +1,22 @@
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+
+    background: #f6f6f7;
+    text-align: center;
+    padding: 5px 0;
+
+    img {
+    width: 40%;
+    filter: grayscale(100);
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+    }
+
+    img:hover {
+        filter: none;
+        transform: scale(1.1);
+    }
+}

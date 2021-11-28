@@ -1,0 +1,58 @@
+/*----------------------------------------------------------
+ @Import
+----------------------------------------------------------*/
+@import "nav";
+@import "backtotopbutton";
+@import "header";
+@import "hero";
+@import "section";
+@import "clients";
+@import "about";
+@import "counts";
+@import "whyus";
+@import "cta";
+@import "services";
+@import "portfolio";
+@import "testimonials";
+@import "contact";
+@import "breadcrumbs";
+@import "footers";
+
+/*-------------------------------------------------------------
+Variables
+---------------------------------------------------------------*/
+$font-family: "Raleway",sans-serif;
+$title-font: "Open Sans",sans-serif;
+$cool-bg: #444444;
+$cool-deco: #B695C0;
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font: $title-font;
+    color: $cool-bg;
+}
+
+a {
+    color: $cool-deco;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $cool-deco;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Disable AOS delay on mobile
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+    [data-aos-delay] {
+        transition-delay: 0 !important;
+    }
+}

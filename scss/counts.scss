@@ -1,0 +1,22 @@
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+    background: #B695C0;
+    padding: 40px 0 20px 0;
+    color: #fff;
+
+    .counters span {
+        font-size: 36px;
+        display: block;
+        font-weight: 700;
+    }
+
+    .counters p {
+        padding: 0;
+        margin: 0 0 20px 0;
+        font-family: "Raleway", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}

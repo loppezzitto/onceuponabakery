@@ -1,0 +1,48 @@
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+  
+    padding: 15px 0;
+    background: #f6f6f7;
+    margin-top: 100px;
+
+    h2 {
+        font-size: 24px;
+        line-height: 1;
+        font-weight: 400;
+    }
+
+    ol {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    ol li+li {
+        padding-left: 10px;
+    }
+
+    ol li+li::before {
+        display: inline-block;
+        padding-right: 10px;
+        color: #4f4c55;
+        content: "/";
+    }
+
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs .d-flex {
+    display: block !important;
+  }
+  .breadcrumbs ol {
+    display: block;
+  }
+  .breadcrumbs ol li {
+    display: inline-block;
+  }
+}
