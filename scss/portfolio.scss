@@ -26,19 +26,18 @@
             margin-bottom: 5px;
             transition: all 0.3s ease-in-out;
             border-radius: 50px;
-            font-family: "Poppins", sans-serif;
-
-            hover,
-            .filter-active {
-                color: #fff;
-                background: #B695C0;
-            }
+            font-family: "Poppins", sans-serif; 
 
             last-child {
                 margin-right: 0;
             }
         }
-    
+        
+        :hover,
+        .filter-active {
+            color: #fff;
+            background: #B695C0;
+        }
         
     }
 
@@ -49,7 +48,7 @@
         z-index: 1;
         background: rgba(54, 52, 58, 0.6);
 
-        ::before {
+        :before {
             content: "";
             background: rgba(54, 52, 58, 0.6);
             position: absolute;

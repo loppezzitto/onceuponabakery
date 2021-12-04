@@ -13,21 +13,30 @@
     height: 40px;
     border-radius: 50px;
     transition: all 0.4s;
+}
 
-    i {
-        font-size: 28px;
-        color: #fff;
-        line-height: 0;
+.back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+}
+
+.back-to-top:hover {
+    background: pink;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Disable AOS delay on mobile
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+    [data-aos-delay] {
+        transition-delay: 0 !important;
     }
-
-    :hover {
-        background: #B695C0;
-        color: #fff;
-    }
-
-    .active {
-        visibility: visible;
-        opacity: 1;
-    }
-
 }

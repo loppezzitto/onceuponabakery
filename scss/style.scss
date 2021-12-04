@@ -1,6 +1,5 @@
-/*----------------------------------------------------------
- @Import
-----------------------------------------------------------*/
+//@import
+
 @import "nav";
 @import "backtotopbutton";
 @import "header";
@@ -18,9 +17,8 @@
 @import "breadcrumbs";
 @import "footers";
 
-/*-------------------------------------------------------------
-Variables
----------------------------------------------------------------*/
+//variables
+
 $font-family: "Raleway",sans-serif;
 $title-font: "Open Sans",sans-serif;
 $cool-bg: #444444;
