@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/loppezzitto/onceuponabakery#readme",
   "devDependencies": {
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.0",
     "nodemon": "^2.0.15"
   }
 }
